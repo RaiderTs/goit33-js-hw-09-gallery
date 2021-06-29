@@ -1,0 +1,31 @@
+.slider-arrow-left,
+.slider-arrow-right {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+}
+
+.slider-arrow-left {
+  left: 130px;
+  top: 50%;
+  display: block;
+  background: url('../images/back1.svg') no-repeat;
+}
+
+.slider-arrow-right {
+  right: 130px;
+  top: 50%;
+  display: block;
+  background: url('../images/next1.svg') no-repeat;
+}
+
+.slider-arrow-left:hover {
+  opacity: 1;
+}
+
+.slider-arrow-right:hover {
+  opacity: 1;
+}
